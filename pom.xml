@@ -9,6 +9,7 @@
     <modules>
         <module>ray-framework-core-util</module>
         <module>ray-framework-core-web</module>
+        <module>ray-framework-core-dependencies</module>
     </modules>
     <name>Ray Framework Core</name>
     <packaging>pom</packaging>
