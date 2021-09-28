@@ -36,7 +36,7 @@
         <jjwt.version>0.9.1</jjwt.version>
         <lombok.version>1.18.8</lombok.version>
         <log4j2.version>2.13.3</log4j2.version>
-        <junit.version>4.10</junit.version>
+        <junit.version>4.12</junit.version>
         <web.version>4.0.1</web.version>
     </properties>
     <!-- 构建管理 -->

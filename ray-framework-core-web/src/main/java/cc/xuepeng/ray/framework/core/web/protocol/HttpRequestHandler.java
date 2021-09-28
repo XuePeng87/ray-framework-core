@@ -4,7 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * HTTP协议处理接口。
- * 用于检查HTTP请求是否符合Yesway的标准。
+ * 用于检查HTTP请求是否符合标准。
  *
  * @author xuepeng
  */

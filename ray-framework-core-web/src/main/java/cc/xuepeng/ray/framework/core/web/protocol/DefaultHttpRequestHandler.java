@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * 默认提供的HTTP协议处理类。
- * 用于检查HTTP请求是否符合Yesway的标准。
+ * 用于检查HTTP请求是否符合标准。
  *
  * @author xuepeng
  */
