@@ -24,7 +24,7 @@ public class DateTimeUtil {
     public static long getSecoudFromNowToTomorrow() {
         long now = LocalDateTime.now().toEpochSecond(OffsetDateTime.now().getOffset());
         long next = LocalDate.now().plusDays(1).atStartOfDay().toEpochSecond(ZoneOffset.of("+8"));
-        return now - next;
+        return next - now;
     }
 
     /**
@@ -36,7 +36,7 @@ public class DateTimeUtil {
     public static long getSecoudFromNowToTomorrow(final ZoneOffset zoneOffset) {
         long now = LocalDateTime.now().toEpochSecond(zoneOffset);
         long next = LocalDate.now().plusDays(1).atStartOfDay().toEpochSecond(zoneOffset);
-        return now - next;
+        return next - now;
     }
 
 }
