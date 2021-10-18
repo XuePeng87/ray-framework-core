@@ -2,7 +2,7 @@ package cc.xuepeng.ray.framework.core.web.security.url;
 
 import lombok.Data;
 
-import java.util.List;
+import java.util.Set;
 
 /**
  * 定义SpringSecurity所需的Url。
@@ -23,7 +23,7 @@ public class WebSecurityUrlProperties {
     /**
      * 忽略的Url（不鉴权）。
      */
-    private List<String> ignoreUrls;
+    private Set<String> ignoreUrls;
     /**
      * 登录页面地址。
      */
